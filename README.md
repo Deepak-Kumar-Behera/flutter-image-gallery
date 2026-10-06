@@ -12,6 +12,10 @@ A Flutter app that shows images from the [Pixabay API](https://pixabay.com/api/d
 |---|---|---|
 | <img src="screenshots/detail-light.jpg" width="250"> | <img src="screenshots/detail-dark.jpg" width="250"> | <img src="screenshots/favorites.jpg" width="250"> |
 
+## Download the APK
+
+Android APK: [image-gallery.apk (v1.0.0)](https://github.com/Deepak-Kumar-Behera/flutter-image-gallery/releases/tag/v1.0.0). Allow installs from unknown sources if your phone asks.
+
 ## Run it
 
 1. Install Flutter (Dart `^3.12.2`).
