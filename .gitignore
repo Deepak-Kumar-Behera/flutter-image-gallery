@@ -46,3 +46,6 @@ app.*.map.json
 
 # Secrets (copy env.example.json to env.json and add your key)
 env.json
+
+# VS Code launch config (passes env.json to the app)
+.vscode/launch.json
