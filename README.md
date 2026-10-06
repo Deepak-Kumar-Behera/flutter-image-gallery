@@ -2,6 +2,16 @@
 
 A Flutter app that shows images from the [Pixabay API](https://pixabay.com/api/docs/). You can search, scroll endlessly, open an image, download or share it, and save favorites.
 
+## Screenshots
+
+| Gallery (light) | Gallery (dark) | Search |
+|---|---|---|
+| <img src="screenshots/gallery-light.jpg" width="250"> | <img src="screenshots/gallery-dark.jpg" width="250"> | <img src="screenshots/search.jpg" width="250"> |
+
+| Image detail (light) | Image detail (dark) | Favorites |
+|---|---|---|
+| <img src="screenshots/detail-light.jpg" width="250"> | <img src="screenshots/detail-dark.jpg" width="250"> | <img src="screenshots/favorites.jpg" width="250"> |
+
 ## Run it
 
 1. Install Flutter (Dart `^3.12.2`).
@@ -95,6 +105,7 @@ The grid uses Pixabay's smaller `webformatURL`, and `CachedNetworkImage` decodes
 
 ## Limits
 
+- Pixabay does not return an image description, so the detail screen shows the uploader, tags and stats instead.
 - No category filter or masonry layout.
 - Download and share show a spinner, not a percentage.
 - A missing API key is not handled specially. Requests just fail and show the normal error screen.
