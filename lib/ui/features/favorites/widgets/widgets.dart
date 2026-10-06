@@ -1,0 +1,1 @@
+export 'emptyFavorites.widget.dart';

@@ -1,0 +1,1 @@
+enum EEnv { development, production }
